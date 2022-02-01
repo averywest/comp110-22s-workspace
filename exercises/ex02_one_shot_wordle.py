@@ -38,7 +38,7 @@ while idx < len(secret_word):
     # must be reset each time because each idx value of chosen_word needs to be evaluated 
     # starting at secret_word[0]. 
 print(emoji)
-# prints the entire emji string after exiting the while loop to see if the secret word and
+# prints the entire emoji string after exiting the while loop to see if the secret word and
 # chosen word were the same, had some similar letters, or were completely different.   
 if chosen_word != secret_word:
     print("Not quite. Play again soon! ")
