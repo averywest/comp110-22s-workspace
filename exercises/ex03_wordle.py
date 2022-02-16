@@ -1,6 +1,6 @@
 """Structured Wordle."""
 
-_author_ = "730325952"
+__author__ = "730325952"
 
 WHITE_BOX: str = "\U00002B1C"
 GREEN_BOX: str = "\U0001F7E9"
@@ -55,7 +55,7 @@ def main() -> None:
     total_left: int = 1
     while total_left <= 6 and guess != secret:
         print(f"=== Turn {total_left}/6 ===")
-        guess: str = input_guess(5)
+        guess = input_guess(5)
         print(emojified(guess, secret))
         if guess == secret:
             print(f"You won in {total_left}/6 turns!")
