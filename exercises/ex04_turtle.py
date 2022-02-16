@@ -1,5 +1,7 @@
-"""A triangle cabin on a starry night. Broke up complex function: Line 83 
-with fn 47-64 and Something fun: Line 15-17 in main fn."""
+
+"""A triangle cabin on a starry night.""" 
+"""Broke up complex function: Line 83 with fn 47-64.""" 
+"""Something fun: Line 15-17 in main fn."""
 
 __author__ = "730325952"
 
