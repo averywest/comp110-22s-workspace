@@ -28,8 +28,8 @@ def sub(numbers_two: list[int], x: int, y: int) -> list[int]:
 def concat(first_list: list[int], second_list: list[int]) -> list[int]:
     """Two lists combined into one list."""
     final_tracer: list[int] = []
-    for even in first_list:
-        final_tracer.append(even)
-    for number in second_list:
-        final_tracer.append(number)
+    for first in first_list:
+        final_tracer.append(first)
+    for second in second_list:
+        final_tracer.append(second)
     return final_tracer

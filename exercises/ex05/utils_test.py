@@ -7,6 +7,7 @@ from exercises.ex05.utils import only_evens, sub, concat
 
 
 def test_only_evens_empty() -> None:
+    """"""
     numbers: list[int] = []
     assert only_evens(numbers) == []
 
