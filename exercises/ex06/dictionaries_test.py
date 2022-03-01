@@ -3,7 +3,6 @@
 __author__ = "730325952"
 
 from exercises.ex06.dictionary import invert, favorite_color, count
-import pytest
 
 
 def test_invert_empty() -> None:
@@ -22,11 +21,6 @@ def test_invert_words() -> None:
     """Use case unit test for inverting dictionary."""
     a: dict[str, str] = {"carrots": "celery", "raspberries": "blueberries", "lemonade": "tea"}
     assert invert(a) == {"celery": "carrots", "blueberries": "raspberries", "tea": "lemonade"}
-
-
-with pytest.raises(KeyError):
-    a = {"Avery": "West", "Kanye": "West"}
-    invert(a)
 
 
 def test_favorite_color_empty() -> None:
