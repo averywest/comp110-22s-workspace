@@ -7,6 +7,8 @@ def invert(a: dict[str, str]) -> dict[str, str]:
     """Inverts the dictionary."""
     inverted_a: dict[str, str] = {}
     for key in a:
+        if a[key] in inverted_a:
+            raise KeyError("Multiple of the same key.")
         inverted_a[a[key]] = key
     return inverted_a
 
