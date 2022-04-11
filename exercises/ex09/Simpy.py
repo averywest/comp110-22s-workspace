@@ -16,7 +16,7 @@ class Simpy:
 
     def __str__(self) -> str:
         """Converting to str representation."""
-        return f"({self.values})"
+        return f"Simpy({self.values})"
 
     def fill(self, value_filling: float, repeat: int) -> None:
         """Filling the values of the object."""
