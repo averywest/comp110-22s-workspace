@@ -8,6 +8,7 @@ __author__ = "730325952"
 
 
 class Simpy:
+    """Sequences of numerical data, version of NumPy."""
     values: list[float]
 
     def __init__(self, numbers: list[float]):
